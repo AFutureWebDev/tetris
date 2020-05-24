@@ -1,0 +1,129 @@
+/* font-family: 'Chelsea Market', cursive;
+font-family: 'Rajdhani', sans-serif; */
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(blocks.png);
+    background-size: cover;
+}
+
+#letter1 {
+    color: red;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+#letter2 {
+    color: orange;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+#letter3 {
+    color: purple;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+#letter4 {
+    color: blue;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+#letter5 {
+    color: green;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+#letter6 {
+    color: pink;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 4em;
+    text-shadow: 3px 3px 5px black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* INSTRUCTIONS */
+#instructions {
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif; 
+    font-size: 1.3em;
+    margin-bottom: 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+/* SCORE AND START BUTTON */
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+
+h3 {
+    font-family: 'Rajdhani', sans-serif; 
+    font-size: 2em;
+    margin: 10px;
+}
+
+#score {
+    font-family: 'Rajdhani', sans-serif; 
+    font-size: 1em;
+    margin: 10px;
+}
+
+button {
+    font-family: 'Rajdhani', sans-serif; 
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+/* CONTAINER THAT HOLDS THE TETRIS GAME */
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#grid {
+    width: 200px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+}
+
+#grid div {
+    height: 20px;
+    width: 20px;
+}
+
+.mini-grid {
+    margin-left: 50px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.mini-grid div{
+    height: 20px;
+    width: 20px;
+}
